@@ -1,0 +1,6 @@
+Scrum Roles For Iteration 3
+
+1. Daniel Surina: Repo Manager
+2. Niall Shaidullin: Team Member
+3. Dongwei Han: Scrum Master
+4. Arvin Bayat Manesh: Product Owner

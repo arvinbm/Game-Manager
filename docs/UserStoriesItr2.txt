@@ -1,0 +1,8 @@
+1. Select the difficulty of the game: Implementing the drop down menu, storing data of the difficulty, changing final score according to the chosen difficulty; We estimate that as 1 unit
+2. Achievement Improvement: Implementing the drop down menu, storing the data of the chosen theme, illustrate earned achievement according to the chosen theme. We estimate that as 1 unit
+3. Score illustration: Implementing the fragment message, change the message according to the earned score and theme, implementing the animation. We estimate that as 1 unit
+4. Edit game: allow user to access the old games and edit the values. We estimate that as 1 unit of work
+5. Friendly UI: change all the UI objects according to the similar style, align the objects, add customized toolbars. We estimate that as 1 unit of work
+
+We used 1 unit of work as the amount of new functions or objects that need to be implemented. All the 5 stories have same difficulty.
+

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AchievementsActivity"
+    android:background="@drawable/wallpaper">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar_achievements"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/include" />
+
+            <TextView
+                android:id="@+id/tv_theme_achievements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="monospace"
+                android:text="@string/theme"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_difficultInAchievements" />
+
+            <TextView
+                android:id="@+id/tv_range9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="monospace"
+                android:textColor="@color/blue_custom"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_range8" />
+
+            <TextView
+                android:id="@+id/tv_range8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="monospace"
+                android:textColor="@color/blue_custom"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_range7" />
+
+            <TextView
+                android:id="@+id/tv_difficultInAchievements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="monospace"
+                android:text="Difficulty:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_numPlayersInAchievements" />
+
+            <Spinner
+                android:id="@+id/spinner_difficulty_achievment"
+                android:layout_width="196dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="132dp"
+                android:autofillHints="e.g. 6"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:inputType="text"
+                android:minHeight="48dp"
+                app:layout_constraintStart_toEndOf="@+id/tv_numPlayersInAchievements"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/spinner_theme_achievement"
+                android:layout_width="196dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="180dp"
+                android:layout_marginEnd="12dp"
+                android:minHeight="48dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/et_numPlayer_achievement"
+                android:layout_width="196dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="84dp"
+                android:autofillHints="e.g. 6"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:inputType="number"
+                android:minHeight="48dp"
+                app:layout_constraintStart_toEndOf="@+id/tv_numPlayersInAchievements"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_numPlayersInAchievements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="104dp"
+                android:fontFamily="monospace"
+                android:text="@string/achievementActivity_numPlayers"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_achievement1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="124dp"
+                android:fontFamily="monospace"
+                android:text="---"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_numPlayersInAchievements" />
+
+            <TextView
+                android:id="@+id/tv_achievement2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="monospace"
+                android:text="---"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_achievement1" />
+
+            <TextView
+                android:id="@+id/tv_achievement3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="monospace"
+                android:text="---"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_achievement2" />
+
+            <TextView
+                android:id="@+id/tv_achievement4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="monospace"
+                android:text="---"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_achievement3" />
+
+            <TextView
+                android:id="@+id/tv_achievement5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="monospace"
+                android:text="---"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_achievement4" />
+
+            <TextView
+                android:id="@+id/tv_achievement6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="monospace"
+                android:text="---"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_achievement5" />
+
+            <TextView
+                android:id="@+id/tv_achievement8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="monospace"
+                android:text="---"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_achievement7" />
+
+            <TextView
+                android:id="@+id/tv_achievement9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="monospace"
+                android:text="---"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_achievement8" />
+
+            <TextView
+                android:id="@+id/tv_achievement10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="monospace"
+                android:text="---"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_achievement9" />
+
+            <TextView
+                android:id="@+id/tv_achievement7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="monospace"
+                android:text="---"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_achievement6" />
+
+            <TextView
+                android:id="@+id/tv_range0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="32dp"
+                android:fontFamily="monospace"
+                android:textColor="@color/blue_custom"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_theme_achievements" />
+
+            <TextView
+                android:id="@+id/tv_range1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="monospace"
+                android:textColor="@color/blue_custom"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_range0" />
+
+            <TextView
+                android:id="@+id/tv_range2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="monospace"
+                android:textColor="@color/blue_custom"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_range1" />
+
+            <TextView
+                android:id="@+id/tv_range3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="monospace"
+                android:textColor="@color/blue_custom"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_range2" />
+
+            <TextView
+                android:id="@+id/tv_range4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="monospace"
+                android:textColor="@color/blue_custom"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_range3" />
+
+            <TextView
+                android:id="@+id/tv_range5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="monospace"
+                android:textColor="@color/blue_custom"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_range4" />
+
+            <TextView
+                android:id="@+id/tv_range6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="monospace"
+                android:textColor="@color/blue_custom"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_range5" />
+
+            <TextView
+                android:id="@+id/tv_range7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="monospace"
+                android:textColor="@color/blue_custom"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_range6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

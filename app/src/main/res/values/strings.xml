@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Project_7F</string>
+    <string name="achievement_1">Victorious Whales</string>
+    <string name="achievement_2">Glorious Giraffes</string>
+    <string name="achievement_3">Brave Bears</string>
+    <string name="achievement_4">Pretty Penguins</string>
+    <string name="achievement_5">Reckless Racoons</string>
+    <string name="achievement_6">Crazy Crows</string>
+    <string name="achievement_7">Rowdy Rats</string>
+    <string name="achievement_8">Fat Flies</string>
+    <string name="achievement_9">Lazy Lizards</string>
+    <string name="achievement_10">Slow Snakes</string>
+
+    <string name="toolbar_configuration_list">List of Configurations</string>
+    <string name="toolbar_configuration">Configure a Game</string>
+    <string name="toolbar_achievements">Achievements</string>
+    <string name="toolbar_game_list">Played Games</string>
+    <string name="toolbar_game">Record a Game</string>
+    <string name="toolbar_theme">Theme</string>
+    <string name="toolbar_about">About Fluorine-7</string>
+
+    <string name="theme">Theme:</string>
+    <string name="configuration_hint_name">Poker</string>
+    <string name="configuration_hint_max_socore">999</string>
+    <string name="configuration_hint_min_score">0</string>
+    <string name="achievements_hint_num_players">6</string>
+    <string name="achievementActivity_numPlayers">Number of Players:</string>
+    <string name="this_is_no_game_under_this_configuration_yet_it_is_free_to_click_the_add_button_to_add_a_new_game">This is no game under this configuration yet. It is free to click the add button to add a new game.</string>
+    <string name="config_great_score">Best Score</string>
+    <string name="config_poor_score">Worst Score</string>
+    <string name="delete">delete</string>
+    <string name="go_to_games_list">Go To Games List</string>
+    <string name="go_to_achievements">Go To Achievements</string>
+    <string name="save">Save</string>
+    <string name="config_name">Name</string>
+    <string name="this_is_no_game_configuration_yet_you_can_click_the_add_button_to_add_a_new_game_configuration">This is no game configuration yet. You can click the add button to add a new game configuration.</string>
+    <string name="save_game">Save Game</string>
+    <string name="number_of_players">Number of Players</string>
+    <string name="score">Score</string>
+    <string name="there_is_no_game_under_this_configuration_you_can_click_the_add_button_to_add_a_new_game">There is no game under this configuration. You can click the add button to add a new game.</string>
+    <string name="theme_select">Select a Theme</string>
+    <string name="game_photo">Game Photo</string>
+    <string name="game">Game</string>
+    <string name="confirm_photo">Confirm Photo</string>
+    <string name="take_a_photo">take a photo</string>
+
+    <string name="about_developers">Developers:</string>
+    <string name="about_Daniel">Daniel Surina - dsa108@sfu.ca</string>
+    <string name="about_Davis">Dongwei Han (Davis) - dongweih@sfu.ca</string>
+    <string name="about_Niall">Niall Shaidullin - nsa109@sfu.ca</string>
+    <string name="about_Arvin">Arvin Bayat Manesh- aba191@sfu.ca</string>
+    <string name="about_references">References:</string>
+    <string name="about_wallpaper_link">Wallpaper - https://www.desktopbackground.org/wallpaper/cool-simple-white-backgrounds-picture-gallery-3405</string>
+    <string name="sound_https_freesound_org_people_mlaudio_sounds_615099">Sound - https://freesound.org/people/MLaudio/sounds/615099</string>
+
+
+    <string-array name="difficulty_list">
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Hard</item>
+    </string-array>
+
+    <string-array name="theme_list">
+        <item>Crazy Animals</item>
+        <item>Disney Characters</item>
+        <item>Marvel Heroes</item>
+    </string-array>
+
+    <string-array name="achievement_level_animals">
+        <item>Victorious Whales</item>
+        <item>Glorious Giraffes</item>
+        <item>Brave Bears</item>
+        <item>Pretty Penguins</item>
+        <item>Reckless Racoons</item>
+        <item>Crazy Crows</item>
+        <item>Rowdy Rats</item>
+        <item>Fat Flies</item>
+        <item>Lazy Lizards</item>
+        <item>Slow Snakes</item>
+    </string-array>
+
+    <string-array name="achievement_level_disney">
+        <item>Cookie Monsters</item>
+        <item>Kim Possibles</item>
+        <item>Aladdins</item>
+        <item>Peter Pans</item>
+        <item>Tarzans</item>
+        <item>Pinocchios</item>
+        <item>Bambis</item>
+        <item>Elmos</item>
+        <item>Olafs</item>
+        <item>Shreks</item>
+    </string-array>
+
+    <string-array name="achievement_level_marvel">
+        <item>Spider-Mans</item>
+        <item>Iron Mans</item>
+        <item>Captain America</item>
+        <item>Thors</item>
+        <item>Black Panthers</item>
+        <item>Ant-Mans</item>
+        <item>Wolverines</item>
+        <item>Hulks</item>
+        <item>Black Widows</item>
+        <item>Thanos</item>
+    </string-array>
+
+</resources>
